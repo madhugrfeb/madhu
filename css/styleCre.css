@@ -1,0 +1,139 @@
+#header {
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    -moz-flex-direction: column;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -moz-align-items: -moz-flex-end;
+    -webkit-align-items: -webkit-flex-end;
+    -ms-align-items: -ms-flex-end;
+    align-items: flex-end;
+    -moz-justify-content: space-between;
+    -webkit-justify-content: space-between;
+    -ms-justify-content: space-between;
+    justify-content: space-between;
+    /* background-color: #1f1815; */
+    background-attachment: scroll, fixed;
+    background-image: url(../image/overlay.png), url(../image/bg.jpg);
+    background-position: top left, top left;
+    background-repeat: repeat, no-repeat;
+    background-size: auto, auto 100%;
+    color: rgba(255, 255, 255, 0.5);
+    height: 100%;
+    left: 0;
+    padding: 8em 4em;
+    position: fixed;
+    text-align: right;
+    top: 0;
+    width: 35%;
+}
+
+#header > .inner {
+    -moz-flex-grow: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-grow: 1;
+    flex-grow: 1;
+    margin: 0 0 2em 0;
+}
+
+.headerLines {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 2rem;
+    margin: 0;
+    font-weight: 600;
+    color: #40424a;
+    opacity: 0.8;
+    margin-bottom: 5%;
+}
+
+.genneralInfo {
+    padding: 15% 10%;
+}
+
+.sub-header {
+    margin-top: 5%;
+    margin-left: 10%
+}
+
+.sub-headerLines {
+    
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 1.5rem;
+    color: #40424a;
+    margin: 10px 0;
+    min-width: 200px;
+    display: inline-flex;
+}
+.ulListcss{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 1.5rem;
+    color: #40424a;
+    margin: 0;
+    opacity: 0.8
+   
+}
+@media screen and (max-width: 1280px) {
+
+    /* Header */
+    #header {
+        padding: 6em 3em 3em 3em;
+        width: 30%;
+    }
+}
+
+
+@media screen and (max-width: 980px) {
+    /* Header */
+    #header {
+        background-attachment: scroll;
+        background-position: top left, center center;
+        background-size: auto, cover;
+        left: auto;
+        padding: 6em 4em;
+        position: relative;
+        text-align: center;
+        top: auto;
+        width: 100%;
+        display: block;
+    }
+
+}
+
+#footer .icons {
+    margin: 1em 0 0 0;
+}
+
+ul.icons {
+    cursor: default;
+    list-style: none;
+    padding-left: 0;
+}
+
+.image.avatar img {
+    border-radius: 100%;
+    width: 50%;
+}
+
+.socialMediaImages {
+    width: 50%;
+    height: auto;
+
+}
+
+@media screen and (max-width: 736px) {
+
+    /* Header */
+    #header {
+        padding: 2.25em 1.5em;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    #header {
+        padding: 4.5em 1.5em;
+    }
+}

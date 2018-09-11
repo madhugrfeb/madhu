@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Import Google Icon Font-->
+    <title>Madhu</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <link type="text/css" rel="stylesheet" href="css/styleCre.css" media="screen,projection" />
+    <link type="text/css" rel="stylesheet" href="font-awesome/css/font-awesome.min.css" media="screen,projection" />
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,400i,600,600i,700" rel="stylesheet">
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+    <div class="row">
+        <div class="col l4 m4 s12" style="overflow:hidden !important">
+            <div class="col l12 m12 s12" id='header'>
+                <div class="inner">
+                    <a href="#" class="image avatar">
+                        <img src="image/profileE.jpg" alt="">
+                    </a>
+
+                    <p>I am MADHU GR</p>
+                    <p>Web-developer</p>
+                </div>
+
+
+                <div class="col l12 m12 s12" id='footer'>
+                    <div class="inner">
+                        <ul class="icons" style="display: inline-flex">
+                            <li><span class="label"><img class='socialMediaImages' src="image/github-brands.svg"/></span></li>
+                            <li><span class="label"><img class='socialMediaImages' src="image/envelope-solid.svg"/></span></li>
+                            <li><span class="label"><a href="https://www.facebook.com/Madhu-2645681245657197/"><img class='socialMediaImages' src="image/facebook-square-brands.svg"/></a></span></li>
+                            <li><span class="label"><img class='socialMediaImages' src="image/instagram-brands.svg"/></span></li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--
+        -->
+        <div class="col l8 m8 s12">
+            <div class="col l12 m12 s12" style="background-color:#f2f7f8">
+                <div class="genneralInfo animate-box fadeInUp animated">
+                    <p class="headerLines  ">General Info</p>
+                    <ul class="ulListcss">
+                        <li>
+                            <p class="sub-headerLines">DOB: </p><span class="sub-header">13<sup>th</sup> December 1993</span>
+                        </li>
+                        <li>
+                            <p class="sub-headerLines">Phone: </p><span class="sub-header">9972378936</span>
+                        </li>
+                        <li>
+                            <p class="sub-headerLines">E-mail: </p><span class="sub-header"><a href='madhugrfeb@gmail.com'>madhugrfeb@gmail.com</a></span>
+                        </li>
+                        <li>
+                            <p class="sub-headerLines">Address: </p><span class="sub-header">Bengaluru, karnataka, India</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="genneralInfo  animate-box intro-heading fadeInUp animated">
+                    <p class="headerLines  ">Work Experience </p>
+
+                </div>
+
+                <div class="genneralInfo  animate-box intro-heading fadeInUp animated">
+                    <form class="contact-form" id="contact-form">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <input type="text" placeholder="Name" id='inputName'>
+                            </div>
+                            <div class="col-md-6">
+                                <input type="text" placeholder="E-mail" id='inputEmail'>
+                            </div>
+                            <div class="col-md-12">
+                               <!-- <input type="text" placeholder="Subject">-->
+                                <textarea placeholder="Message" id='inputMessage'></textarea>
+                            </div>
+                        </div>
+                        <div class="text-md-right">
+                            <button class="site-btn">Send message</button>
+                        </div>
+                    </form>
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="js/email.js"></script>
+    <script>
+        window.fbAsyncInit = function() {
+            FB.init({
+                appId: '395863647426000',
+                xfbml: true,
+                version: 'v3.1'
+            });
+            FB.AppEvents.logPageView();
+        };
+
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) {
+                return;
+            }
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "https://connect.facebook.net/en_US/sdk.js";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+
+    </script>
+
+</body>
+
+
+</html>
